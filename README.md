@@ -33,6 +33,7 @@ We are in a period where technology is “taking over the world”, therefore pe
 This is a movie ticket booking website that aims to make the user's experience easier and to save time for the company as well as raise revenue. The website has two main users:
 The movie watchers: will be using the interface to check on the available movies and book a seat for their wanted movie
 The cinema: which will be the admin and will have access to the administration dashboard to check on the bookings and make changes to the interface of the website
+
 Key Features:
 -	A search bar to make it easier to find the desired movies.
 -	Movies and their available times and dates
@@ -40,6 +41,7 @@ Key Features:
 -	Log-in and Registration options, so that the data can be saved for that particular user and for them to choose if they want to log in or if they want to browse as a guest
 -	Different payment methods
 -	Booking information, so they can have real-time information about the ticket they purchased
+
 We want to address the user’s needs therefore we aim to make the website:
 -	User-friendly: our website will be easy to use even for those who do not have any experience with technology.
 -	Efficiency: now the cinemas can save time on keeping track of their clients, also there won’t be a long waiting time and long lines to enter the cinema.
