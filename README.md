@@ -211,7 +211,11 @@ For backend:
  d. User Interface Design: 
 Showcase wireframes, mockups, or describe the user interface: 
 Provide a visual representation of how users will interact with the system. 
-Here are some designs of the website worked on Figma:
+Here are some designs of the website worked on Figma: 
+Other things that need to be added are:
+- Login and registration: there will be two login containers. One dedicated to users who want to register/login for ticket purchasing and the other dedicated to administration dashboard.  
+- Administration dashboard: This will be built to make it easier the maintenance of the website through CRUD operations. 
+
 
 
 
