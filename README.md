@@ -206,7 +206,7 @@ For database:
 - MySQL: It is fast and powerful making it a good option out of many other database management systems. What makes it even better is that it is easy and free to use and offers a variety of database management system functionalities. 
 
 For backend: 
-- Java programing language: is an objected oriented, multiprogramming language. I chose to work with this language because its syntax is easy to understand and to maintain as well as it is easy to debug. 
+- PHP, especially with the Laravel framework, is used to work on the backend. PHP allows you to construct dynamic web pages by directly integrating server-side logic into HTML content. PHP enables developers to create dependable web applications by supporting a wide range of web servers, including built-in database connectivity and support for various libraries. 
 
  d. User Interface Design: 
 Showcase wireframes, mockups, or describe the user interface: 
