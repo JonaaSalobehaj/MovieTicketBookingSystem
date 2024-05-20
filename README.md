@@ -55,6 +55,68 @@ Jona Salobehaj - role is to build a dynamic website so that it can be used by po
 Submission Deadline: 20.03.2023, 23:59 hours.
 
 # Additional Notes
+HOW TO RUN THE CODE:
+1.	Download XAMPP:
+Go to XAMPP's website and download it for your operating system (https://www.apachefriends.org/download.html ). Make sure to install XAMPP with PHP version 8.1 or higher.
+Once downloaded, follow the installation instructions. Don't forget to start Apache and MySQL after installation!
+
+2.	Install Composer:
+Head to the Composer website and follow the instructions to download and install it. (https://getcomposer.org/download/)
+Make sure to add Composer to your system's PATH so you can run it from anywhere.
+
+3.	Clone the Laravel Project from GitHub:
+Open your command line and navigate to where you want to put the project.
+Use the command git clone <repository_url> to clone the project. Replace <repository_url> with the project's GitHub URL.
+
+4.	Navigate to the Project Directory:
+Open the terminal and change directory to the project folder using cd <project_folder>.
+
+5.	Install Dependencies:
+Run "composer install" to install all project dependencies.
+
+6.	Create Environment File:
+Copy the .env.example file to .env by running "cp .env.example .env".
+Customize the .env file with your database name, username and password.
+
+7.	Generate Application Key:
+Run 'php artisan key:generate" to generate the application key.
+
+8.	Run Migrations:
+If the project has migrations, run them with "php artisan migrate".
+
+9.	Serve the Application:
+Start the development server with "php artisan serve".
+Visit http://localhost:8000 in your browser to see the project.
+
+10.	Credentials:
+-	User: admin@cinemingle.com  Password: password
+-	Admin: admin@cinemingle.com  Password: password
+-	Test Credit Card: Card Number: 4242 4242 4242 4242
+Expiry Date:	Any date in the future
+CVV:	100
+-	Checkout Dashboard Credentials: Email: jsalobehaj21@epoka.edu.al
+Password: G!FUd9VXH4yFjNX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Phase II: User Requirements and Application Specifications 
 Submission Deadline: 18.03.2024, 23:59 
 1.	Chosen Development Model: 
