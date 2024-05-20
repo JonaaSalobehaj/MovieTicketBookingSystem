@@ -7,7 +7,7 @@ GitHub Submission Template: Group Division (Phase I) # Team Information
 
 # Project Details
 
-## Project Title: Movie Ticket Booking System
+## Project Title: CineMingle: A Comprehensive PHP-Based Cinema Ticket Booking System
 
 ## Problem Statement:
 In Albania there are not a lot of Movie Ticket Booking Websites in the market, some cinemas do not use them at all and prefer the old-fashioned way which is in-person ticket purchasing. That is inconvenient and time-consuming. Technology exists to make our lives easy that is why I saw it as necessary to offer this service.  Through the conduction of analysis, surveys, and checking on trends it came to my notice that some problems and things could be better regarding the current movie ticket booking websites. The biggest problem that most of the users faced was that the websites lacked user-friendly interfaces. Poorly designed websites often make the users prefer to make the payment in person rather than online. Other problems such as glitches when choosing seats and payment options were mentioned.
@@ -132,8 +132,8 @@ Movie scheduling:
 
 Ticket booking: 
 -	Each movie has a “book now” option which will open a new page
--	The date, month, year, venue and time should be selected 
--	A pop table will appear requesting the number of seats
+-	The date, month, year, venue and time should be selected
+-	More than one seat needs to be selected to proceed
 -	Select the seat in the displayed cinema seating model
 
 Generate electronic ticket:  
