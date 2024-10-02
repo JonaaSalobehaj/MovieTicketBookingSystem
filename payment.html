@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equi="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Information</title>
+  <link rel="stylesheet" href="style.css">
+  <!--Box Icons-->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ <!--Link Swiper's CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+  <!-- Navbar-->
+  <header class="header-nav">
+    <a href="index.html" class="logo">
+      <i class="bx bxs-camera-movie" ></i> POPCORN
+    </a>
+    
+    <!-- Menu -->
+    <ul class="navbar">
+      <li><a href="#home" class="home-active">Home</a></li>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#coming">Coming</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="signin.html" class="btn">Sign In</a>
+  </header>
+
+  <!--Payment Form-->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+<div class="payment-container">
+    <h1>Payment Form</h1>
+    <form id="paymentForm">
+        <label class="label-payment" for="cardNumber">Card Number</label>
+        <input type="text" class="input-pay" id="cardNumber" name="cardNumber" placeholder="Enter card number" required>
+
+        <label class="label-payment" for="cardHolder">Card Holder Name</label>
+        <input type="text" class="input-pay" id="cardHolder" name="cardHolder" placeholder="Enter card holder name" required>
+
+        <div class="expiry-cvv">
+            <div class="expiry">
+                <label class="label-payment" for="expiryDate">Expiry Date</label>
+                <input type="text" class="input-pay" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+            </div>
+            <div class="cvv">
+                <label class="label-payment" for="cvv">CVV</label>
+                <input type="number" class="input-pay" id="cvv" name="cvv" placeholder="Enter CVV" required>
+            </div>
+        </div>
+
+        <input type="submit" class="input-pay" value="PAY NOW">
+    </form>
+</div>
+
+</body>
+</html>
